@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+body {
+  font: 3em 'Oswald', helvetica, arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+/* #clock {
+  position:relative;
+  display: inline-block;
+}
+#clock::after {
+  content: "current time";
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+#clock {
+  margin: 0;
+  line-height: 1;
+}
+small {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.blink {
+  animation: 1s blink infinite linear;
+  font-size: 0.8em;
+  vertical-align: top;
+  line-height: 1.25;
+}
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.2;}
+}
