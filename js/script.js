@@ -1,4 +1,9 @@
+const date = document.getElementById(`date`);
 const clock = document.getElementById(`clock`);
+
+const d = new Date()
+date.textContent = `${d.toLocaleDateString(`en-CA`, { month: 'short', day: '2-digit' })}`
+
 
 setInterval(()=>{
   const d = new Date()

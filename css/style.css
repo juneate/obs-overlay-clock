@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
 body {
-  font: 3em 'Oswald', helvetica, arial, sans-serif;
+  font: 2.5em/0.9 'Oswald', helvetica, arial, sans-serif;
   text-align: center;
   margin: 0;
+  text-transform: uppercase;
 }
 /* #clock {
   position:relative;
@@ -16,11 +17,9 @@ body {
 } */
 #clock {
   margin: 0;
-  line-height: 1;
 }
 small {
   font-size: 0.7em;
-  text-transform: uppercase;
 }
 .blink {
   animation: 1s blink infinite linear;
